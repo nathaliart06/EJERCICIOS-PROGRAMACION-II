@@ -1,4 +1,7 @@
-Public class MayorMenorAleatorio {
+package Punto8;
+
+
+public class MayorMenorAleatorio {
     
     public static void main(String[] args) {
         // Arreglo con 30 números
