@@ -5,7 +5,7 @@ public class EjecutarTaller {
         OperacionesConArreglos objP10 = new OperacionesConArreglos();
  
         //Crear una arreglo
-        int[] a = objP10.llenarArreglo(5, 1, 20);
+        int[] a = objP10.llenarArrglo(5, 1, 20);
        
         //Mostrar el arreglo
         objP10.mostrarArreglo(a);
