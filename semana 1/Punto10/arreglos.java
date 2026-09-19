@@ -1,5 +1,3 @@
-package Punto10;
-
 public class arreglos {
     public static void main(String[] args) {
         // Creación de los arreglos
