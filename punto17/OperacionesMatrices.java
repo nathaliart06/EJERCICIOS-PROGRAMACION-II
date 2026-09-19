@@ -1,4 +1,3 @@
-package Matrices;
 public class OperacionesMatrices {
     
     //Método que permite llenar la matriz con números enteros
@@ -10,9 +9,22 @@ public class OperacionesMatrices {
             }
         }
         return m;
+}
+        // suma de filas y columnas 
+
+ public String sumaFilasColumnas(int[][] m){
+        String cad = "";
+        int sumaFilas;
+        for(int i = 0; i < m.length; i++){
+            sumaFilas = 0;
+            for(int j = 0; j < m[0].length; j++){
+                sumaFilas += m[i][j];
+            }
+            cad += "sumaFila " + i + " " + sumaFilas + "\n";
+        }        
+        return cad;
     }
-    
-    //Método que permite mostrar una matriz de enteros
+      //Método que permite mostrar una matriz de enteros
     public String imprimirMatriz(int[][] m){
         String cad = "";
         for(int i = 0; i < m.length; i++){
@@ -24,4 +36,6 @@ public class OperacionesMatrices {
         }
         return cad;
     }
+
+
 }
