@@ -32,9 +32,24 @@ public class Main {
         System.out.println("Suma de los salarios es: " + totalSalarios);
         System.out.println("suma de edades: " + sumaEdades);
         System.out.println("promedio de edades de los trabajadores es:" + promedioEdades); 
-       
 
+        // creacion de los objetos operarios y vendedor
+
+        Trabajador objOperario1 = new Operario (101, " Nathalia ", " Ramos ", 25, 1000, 20 );
+        Trabajador objVendedor1 = new Vendedor(256," Michel ", " Anacona ", 31, 1000, 20);
+        Trabajador objVendedor2 = new Vendedor (306," Jeison ", " Ñañez ", 33, 1000, 15 );
+
+        //System.out.println("pago total: " + objOperario1.pagar());
+        //System.out.println("pago total: " + objVendedor1.pagar());
+        
+        //Creación de un nuevo arreglo de trabajadores
+        Trabajador[] e = new Trabajador[3];
+        e[0] = objOperario1;
+        e[1] = objVendedor1;
+        e[2] = objVendedor2;
+        
+        for(int i = 0; i < e.length; i++){
+            System.out.println("Salario mes: " + e[i].pagar());
+        }
     }
-
-  
 }

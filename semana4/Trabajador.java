@@ -8,17 +8,17 @@ public class Trabajador {
     private String nombre;
     private String apellido;
     private int edad;
-    private double salario;
+    private double salarioBase;
 
     // constructor
 
-    public Trabajador(int id, String nombre, String apellido, int edad, double salario) {
+    public Trabajador(int id, String nombre, String apellido, int edad, double salarioBase) {
 
         this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
         this.edad = edad;
-        this.salario = salario;
+        this.salarioBase = salarioBase;
 
     }
 
@@ -38,8 +38,9 @@ public class Trabajador {
         return edad;
     }
 
-    public double getSalario() {
-        return salario;
+
+    public double getSalarioBase(){
+        return salarioBase;
     }
 
     // Método toString
@@ -47,7 +48,7 @@ public class Trabajador {
     @Override
     public String toString() {
         return "Trabajador{" + "id=" + id + ", nombre=" + nombre + ", apellido=" + apellido + ", edad=" + edad
-                + ", salario=" + salario + '}';
+                + ", salarioBase=" + salarioBase + '}';
     }
 
     // Metodo que permite calcular el total de los salarios de todos los
@@ -57,7 +58,7 @@ public class Trabajador {
 
         double sumaSalario = 0.0;
         for (int i = 0; i < t.length; i++) {
-            sumaSalario += t[i].getSalario();
+            sumaSalario += t[i].getSalarioBase();
 
         }
 
