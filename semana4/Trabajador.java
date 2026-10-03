@@ -46,6 +46,40 @@ public class Trabajador {
         return "Trabajador{" + "id=" + id + ", nombre=" + nombre + ", apellido=" + apellido + ", edad=" + edad + ", salario=" + salario + '}';
     }    
 
+    //Metodo que permite calcular el total de los salarios de todos los trabajadores
 
+    public double calcularsalarios (Trabajador[] t) {
+
+      double sumaSalario = 0.0;
+      for(int i = 0; i < t.length; i++){
+            sumaSalario += t[i].getSalario();
+          
+    }
+
+
+    return sumaSalario; 
+
+
+
+  
+   }
+    public double promedioedades (Trabajador[] t) {
+
+      double promedioedades = 0.0; 
+      double sumaEdades = 0; 
+      for(int i = 0; i < t.length; i++){
+            sumaEdades += t[i].getEdad();
+            
+        }
+        promedioedades = sumaEdades / t.length; 
+
+
+    return promedioedades; 
+
+
+
+  
+   }
+    
 
 }

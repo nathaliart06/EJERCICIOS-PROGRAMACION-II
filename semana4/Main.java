@@ -7,12 +7,14 @@ public class Main {
 
         //creacion de un objeto trabajador
 
-        Trabajador objT1 = new Trabajador (1, "Nathalia", "ramos", 25, 1000);
-        Trabajador objT2 = new Trabajador (2," Michel", "Anacona", 31, 1000 );
-        Trabajador objT3 = new Trabajador (3," Jeison", "ñañez", 33, 1000 );
+        Trabajador objT1 = new Trabajador (1, " Nathalia ", " Ramos ", 25, 1000);
+        Trabajador objT2 = new Trabajador (2," Michel ", " Anacona ", 31, 1000 );
+        Trabajador objT3 = new Trabajador (3," Jeison ", " Ñañez ", 33, 1000 );
 
         System.out.println(objT1);
         System.out.println(objT2);
+        System.out.println(objT3);
+
         System.out.println(objT1.getNombre());
        
      //Arreglo de objetos
@@ -21,14 +23,17 @@ public class Main {
         t[1] = objT2;
         t[2] = objT3;
         
-        //Sumar los salarios de los trabajadores
-        double sumaSalario = 0;
+        //Sumar los salarios de los trabajadores y edades
+        double totalSalarios = objT1.calcularsalarios(t);
         int sumaEdades = 0;
-        for(int i = 0; i < t.length; i++){
-            sumaSalario += t[i].getSalario();
-            sumaEdades += t[i].getEdad();
-        }
-        System.out.println("Suma de los salarios es: " + sumaSalario);
+        double promedioEdades = objT1.promedioedades(t);
+
+      
+        System.out.println("Suma de los salarios es: " + totalSalarios);
         System.out.println("suma de edades: " + sumaEdades);
+        System.out.println("promedio de edades de los trabajadores es:" + promedioEdades); 
+
     }
+
+  
 }
