@@ -32,6 +32,7 @@ public class Main {
         System.out.println("Suma de los salarios es: " + totalSalarios);
         System.out.println("suma de edades: " + sumaEdades);
         System.out.println("promedio de edades de los trabajadores es:" + promedioEdades); 
+       
 
     }
 
