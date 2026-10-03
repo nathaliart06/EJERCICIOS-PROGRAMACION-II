@@ -20,8 +20,24 @@ public class Trabajador {
         this.edad = edad;
         this.salario = salario;
         
-
     }
+       public int getId (){
+        return id;
+       }
+       public String getNombre (){
+        return nombre;
+       }
+       public String getApellido (){
+        return apellido;
+       }
+       public int getEdad (){
+        return edad;
+       }
+       public double getSalario (){
+        return salario;
+       }
+
+
 
      //Método toString
 
