@@ -25,7 +25,7 @@ public class Main {
         
         //Sumar los salarios de los trabajadores y edades
         double totalSalarios = objT1.calcularsalarios(t);
-        int sumaEdades = 0;
+        int sumaEdades = objT1.sumaEdades(t);
         double promedioEdades = objT1.promedioedades(t);
 
       
