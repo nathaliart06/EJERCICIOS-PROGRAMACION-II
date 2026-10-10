@@ -4,7 +4,6 @@ package TALLER: PILAS, COLAS, ARREGLOS Y MATRICES DE OBJETOS EN JAVA;
 
 public class TipoOperacion {
     
-
     
     private String identificador;
     private String descripcion;

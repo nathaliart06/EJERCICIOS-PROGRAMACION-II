@@ -32,8 +32,6 @@ public class PilaOperacion {
         pila.push( );
 
 
-       
-
         // imprime la pila     
         System.out.println( " Elementos de la pila: "  + pila);
 
