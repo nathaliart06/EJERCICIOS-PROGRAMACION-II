@@ -18,11 +18,24 @@ public class TipoOperacion {
         this.descripcion = descripcion;
         this.tipoOperacion = tipoOperacion;
 
-        
-      
+        }
+       
 
-
-    }
+        public String getidentificador() {
+        return identificador;
+        }
     
+        public String getidescripcion() {
+        return descripcion; 
+        }
 
+        public String gettipoOperacion() {
+        return tipoOperacion;
+    
+        }    
+
+         @Override
+    public String toString() {
+        return "tipoOperacion{" + "identificador=" + identificador + ", descripcion =" + descripcion + ", tipoOperacion=" + tipoOperacion'}';
+    }
 }

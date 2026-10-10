@@ -12,11 +12,11 @@ package TALLER: PILAS, COLAS, ARREGLOS Y MATRICES DE OBJETOS EN JAVA;
 
 import java.util.*;
 
-public class Actividad3 {
+public class PilaOperacion {
 
     public static void main(String [] args){ 
 
-        Stack<Operacion> pila = new Stack<>();
+        Stack<PilaOperacion> pila = new Stack<>();
 
         //Apilar una nueva operación.
 
