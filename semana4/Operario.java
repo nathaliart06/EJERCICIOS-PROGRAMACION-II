@@ -10,7 +10,7 @@ public class Operario extends Trabajador{
         this.horas = horas;
     }
     
-    public double pagar(){
+      public double horas(){                
         return getSalarioBase() * horas;
-    }
+      }
 }

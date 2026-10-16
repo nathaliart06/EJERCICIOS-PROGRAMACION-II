@@ -7,10 +7,6 @@
 //Mostrar los estudiantes con promedio igual o superior a 4.0.
 //Identificar al estudiante con el promedio más alto.
 
-
-
-package Semana5.Taller.Actividad1;
-
 public class Actividad1 {
     public static void main(String[] args) {
         // Arreglo de objetos con capacidad para 10 estudiantes

@@ -10,7 +10,7 @@ public class Vendedor extends Trabajador{
         this.comision = comision;
     }
     
-    public double pagar(){
+    public double comision(){
         return getSalarioBase() * ( 1 + (comision / 100)) ;
     }
 }

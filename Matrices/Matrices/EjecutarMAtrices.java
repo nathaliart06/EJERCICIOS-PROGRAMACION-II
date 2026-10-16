@@ -1,16 +1,16 @@
-package Matrices.;
-public class EjecutarMatrices {
+
+public class EjecutarMAtrices {
 
     public static void main(String [] args) {
 
         //creacion del objeto para llamar los metodos de la clase
         //operacionesMatrices.java
 
-        OperacionesMatrices objM = new OperacionesMatrices();
+        OperacionesMAtrices objM = new OperacionesMAtrices();
     
     //Llenar la matriz 
 
-    int[] [] matriz = objM.llenarMatriz(6, 6, 1, 100) ; 
+    int[] [] matriz = objM.llenarMAtriz(6, 6, 1, 100) ; 
 
     // mostrar la matriz 
 
