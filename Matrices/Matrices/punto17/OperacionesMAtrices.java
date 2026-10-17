@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Operacionesmatrices {
+public class OperacionesMAtrices {
     
     public int[][] llenarMAtriz(int f, int c, int min, int max) {
         int[][] m = new int[f][c];

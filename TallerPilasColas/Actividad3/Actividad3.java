@@ -1,3 +1,4 @@
+
 //Actividad 3. Pilas: Historial de operaciones
 //Implemente una pila con capacidad para 10 objetos de tipo Operacion, que contengan identificador, descripción y tipo de operación.
 //Requerimientos:

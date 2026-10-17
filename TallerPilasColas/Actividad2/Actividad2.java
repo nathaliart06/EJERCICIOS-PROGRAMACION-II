@@ -1,3 +1,4 @@
+
 //Actividad 2. Matrices de objetos: Inventario de productos
 //Una empresa requiere organizar sus productos en una matriz de 3 × 4, donde cada posición representa una ubicación de almacenamiento.
 //Cada producto debe tener código, nombre, precio y cantidad disponible.

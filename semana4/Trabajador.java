@@ -93,7 +93,7 @@ public class Trabajador {
     }
 
     public String pagar() {
-        // TODO Auto-generated method stub
+        
         throw new UnsupportedOperationException("Unimplemented method 'pagar'");
     }
 
