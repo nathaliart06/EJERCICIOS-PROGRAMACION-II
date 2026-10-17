@@ -1,4 +1,4 @@
-package Actividad1;
+package TallerPilasColas.Actividad1;
 
 public class Estudiante {
     private int codigo;
@@ -99,5 +99,4 @@ public class Estudiante {
         }
         return mejor;
     }
-}
 }

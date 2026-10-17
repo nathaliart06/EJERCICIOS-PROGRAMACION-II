@@ -1,5 +1,3 @@
-package TALLER: PILAS, COLAS, ARREGLOS Y MATRICES DE OBJETOS EN JAVA.Actividad2;
-
 public class Producto {
     private int codigo;
     private String nombre;

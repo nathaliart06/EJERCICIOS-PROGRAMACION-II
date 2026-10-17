@@ -1,4 +1,5 @@
-package Actividad1;
+package TallerPilasColas.Actividad1;
+
 //Actividad 1. Arreglos de objetos: Gestión de estudiantes
 //Desarrolle una aplicación que permita administrar la información académica de un grupo de hasta 10 estudiantes.
 //Cada estudiante debe tener código, nombre, programa académico y promedio.
@@ -13,9 +14,9 @@ public class Actividad1 {
         // Arreglo de objetos con capacidad para 10 estudiantes
         Estudiante[] estudiantes = new Estudiante[10];
 
-        //System.out.println("----------------- ARREGLO VACIO ----------------");
-        //Estudiante.listar(estudiantes);
-        //System.out.println("Mejor promedio: " + Estudiante.mejorPromedio(estudiantes));
+        System.out.println("----------------- ARREGLO VACIO ----------------");
+        Estudiante.listar(estudiantes);
+        System.out.println("Mejor promedio: " + Estudiante.mejorPromedio(estudiantes));
 
         System.out.println("----------------- REGISTRO DE ESTUDIANTES ----------------");
         Estudiante.registrar(estudiantes, new Estudiante(101, "Michel", "Ingenieria de Sistemas", 4.5));
