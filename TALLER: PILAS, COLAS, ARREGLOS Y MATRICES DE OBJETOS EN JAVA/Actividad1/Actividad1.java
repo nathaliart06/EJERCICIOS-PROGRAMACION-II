@@ -7,7 +7,6 @@
 //Mostrar los estudiantes con promedio igual o superior a 4.0.
 //Identificar al estudiante con el promedio más alto.
 
-
 import java.util.*;
 
 public class Actividad1 {
