@@ -1,5 +1,3 @@
-package TALLER: PILAS, COLAS, ARREGLOS Y MATRICES DE OBJETOS EN JAVA.Actividad4;
-
 import java.util.*;
 
 public class Solicitud {

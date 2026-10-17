@@ -1,6 +1,3 @@
-package TALLER: PILAS, COLAS, ARREGLOS Y MATRICES DE OBJETOS EN JAVA.Actividad3;
-
-
 import java.util.*;
 
 public class Operacion {
