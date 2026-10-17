@@ -1,3 +1,4 @@
+package Actividad1;
 //Actividad 1. Arreglos de objetos: Gestión de estudiantes
 //Desarrolle una aplicación que permita administrar la información académica de un grupo de hasta 10 estudiantes.
 //Cada estudiante debe tener código, nombre, programa académico y promedio.
