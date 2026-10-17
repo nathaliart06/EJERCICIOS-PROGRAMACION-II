@@ -8,16 +8,14 @@ package Actividad1;
 //Mostrar los estudiantes con promedio igual o superior a 4.0.
 //Identificar al estudiante con el promedio más alto.
 
-import java.util.*;
-
 public class Actividad1 {
     public static void main(String[] args) {
         // Arreglo de objetos con capacidad para 10 estudiantes
         Estudiante[] estudiantes = new Estudiante[10];
 
-        System.out.println("----------------- ARREGLO VACIO ----------------");
-        Estudiante.listar(estudiantes);
-        System.out.println("Mejor promedio: " + Estudiante.mejorPromedio(estudiantes));
+        //System.out.println("----------------- ARREGLO VACIO ----------------");
+        //Estudiante.listar(estudiantes);
+        //System.out.println("Mejor promedio: " + Estudiante.mejorPromedio(estudiantes));
 
         System.out.println("----------------- REGISTRO DE ESTUDIANTES ----------------");
         Estudiante.registrar(estudiantes, new Estudiante(101, "Michel", "Ingenieria de Sistemas", 4.5));
