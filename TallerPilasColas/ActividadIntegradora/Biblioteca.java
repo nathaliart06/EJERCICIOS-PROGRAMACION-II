@@ -1,4 +1,4 @@
-package TALLER: PILAS, COLAS, ARREGLOS Y MATRICES DE OBJETOS EN JAVA.ActividadIntegradora;
+package TallerPilasColas.ActividadIntegradora;
 
 //Actividad integradora: Biblioteca universitaria
 //Desarrolle una aplicación que integre las estructuras anteriores para administrar una biblioteca.
@@ -10,7 +10,6 @@ package TALLER: PILAS, COLAS, ARREGLOS Y MATRICES DE OBJETOS EN JAVA.ActividadIn
 //La aplicación deberá permitir registrar y consultar libros, procesar solicitudes de préstamo y visualizar el historial de operaciones.
 
 
-package Semana5.Taller.ActividadIntegradora;
 import java.util.*;
 
 public class Biblioteca {

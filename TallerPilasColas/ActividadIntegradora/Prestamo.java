@@ -1,4 +1,4 @@
-package TALLER: PILAS, COLAS, ARREGLOS Y MATRICES DE OBJETOS EN JAVA.ActividadIntegradora;
+package TallerPilasColas.ActividadIntegradora;
 
 import java.util.*;
 
