@@ -8,8 +8,6 @@
 //Validar los estados de cola vacía y llena.
 //Demuestre el funcionamiento del principio FIFO (First In, First Out).
 
-
-package Semana5.Taller.Actividad4;
 import java.util.*;
 
 public class Actividad4 {

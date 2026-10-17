@@ -8,7 +8,7 @@
 //•	Calcular el valor total del inventario.
 //•	Identificar el producto con mayor cantidad disponible y contar las posiciones vacías.
 
-package Semana5.Taller.Actividad2;
+import java.util.*;
 
 public class Actividad2 {
     public static void main(String[] args) {
