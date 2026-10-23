@@ -1,3 +1,5 @@
+package semana6.CuadradosCubo;
+
 //3. Cuadrados y cubos (Pila)
 //Enunciado. Dado un par de enteros [a, b], evaluar si la raiz cuadrada de a es igual a la raiz
 //cubica de b (con tolerancia numerica razonable). Modela el flujo usando una pila donde primero
