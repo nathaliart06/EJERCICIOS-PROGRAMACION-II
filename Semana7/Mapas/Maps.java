@@ -13,19 +13,19 @@ public class Maps {
         estudiantes.put ( 1234567, " Michel anacona "); 
         estudiantes.put ( 12345678, " Jeison ñañez "); 
 
-        System.err.println(estudiantes.size()); // 3
-        System.err.println(estudiantes.isEmpty()); // false
-        System.err.println(estudiantes);
+        System.out.println(estudiantes.size()); // 3
+        System.out.println(estudiantes.isEmpty()); // false
+        System.out.println(estudiantes);
 
         //{123456=Nathalia Ramos, 12345678=Jeison ñañez, 1234567=Michel anacona} 
 
-        System.err.println(estudiantes.containsKey(1234567)); // True
-        System.err.println(estudiantes.containsValue( " Michel anacona ")); 
-        System.err.println(estudiantes.remove(12345678)); 
+        System.out.println(estudiantes.containsKey(1234567)); // True
+        System.out.println(estudiantes.containsValue( " Michel anacona ")); 
+        System.out.println(estudiantes.remove(12345678)); 
 
-        //System.err.println(estudiantes.replace(1234567, "Michel")); 
-        System.err.println(estudiantes.replace(1234567, "Michel")); 
-        System.err.println(estudiantes);
+        //System.out.println(estudiantes.replace(1234567, "Michel")); 
+        System.out.println(estudiantes.replace(1234567, "Michel")); 
+        System.out.println(estudiantes);
 
             
         for (Integer key : estudiantes.keySet()) {
